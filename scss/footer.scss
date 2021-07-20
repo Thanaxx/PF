@@ -1,0 +1,28 @@
+@import "./components";
+
+footer{
+    text-align: center;
+    padding: 20px 0;
+    background-color: $dark;
+
+    h3{
+        padding: 5px 0;
+        color: $white;
+    }
+    a{
+        font-size: 30px;
+        padding: 0px 7px;
+        color: $mainColor;
+
+        &:hover{
+            color: $white;
+        }
+    }
+    p{
+        color: $white;
+    }
+    img{
+        width: 100px;
+    }
+
+}

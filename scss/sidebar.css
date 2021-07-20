@@ -1,0 +1,49 @@
+@media screen and (max-width: 760px) {
+  .sidemenu-wrapper {
+    background-color: #3333338e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    -webkit-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+  }
+  .sidemenu-wrapper .side {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #3F3D56;
+    height: 100%;
+    width: 360px;
+    padding: 25px;
+  }
+  .sidemenu-wrapper .side h3 {
+    color: #ffff;
+    text-align: center;
+    font-weight: normal;
+    padding: 20px 0;
+    font-size: 33px;
+    letter-spacing: 3px;
+  }
+  .sidemenu-wrapper .side .links {
+    padding: 25px 0;
+    text-align: center;
+  }
+  .sidemenu-wrapper .side .links a {
+    color: #ffff;
+    display: block;
+    text-decoration: none;
+    font-size: 23px;
+    margin: 40px 0;
+    padding: 5px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+  }
+  .sidemenu-wrapper .side .links a:hover {
+    background-color: #ffffff;
+    color: #3F3D56;
+  }
+}
+/*# sourceMappingURL=sidebar.css.map */

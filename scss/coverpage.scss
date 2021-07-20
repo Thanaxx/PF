@@ -1,0 +1,214 @@
+@import "./components";
+
+%center{
+    display: flex;
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: $white;
+}
+
+nav{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+
+
+    img{
+        width: 100px;
+        padding-top: 10px;
+    }
+    
+    .nav-bar{
+        font-size: 40px;
+        opacity: 0;
+
+        @include mobile{
+            opacity: 1;
+            position: fixed;
+            top: 16px;
+            right: 25px;
+            cursor: pointer;
+        }
+    }
+
+    .nav-links{
+        @extend %center;
+        font-size: 18px;
+        
+        a{
+            text-decoration: none;
+            padding: 0px 20px;
+            color: $dark;
+            font-weight: 500;
+            font-weight: bold;
+            
+            &:hover{
+                color: $mainColor;
+            }
+
+            @include mobile{
+                opacity: 0;
+                padding: 0px;
+                display: none;
+            }
+
+        }
+    }
+
+}
+
+    .main-wrapper{
+        min-height: 90vh;
+        display: flex;
+        padding: 70px 80px 90px 80px;
+        
+
+        @include mobile{
+            flex-wrap: wrap;
+            padding: 50px 25px;
+            line-height: 1.3;
+            height: 100%;
+        }
+
+        .main-left{
+            flex: 1;
+            color: $black;
+            margin: auto;
+            padding-left: 50px;
+
+            animation-name: slide;
+            animation-duration: 2s;
+            position: relative;
+
+            @keyframes slide {
+                from{left: -300px;}
+                to{left: 10px;}
+            }
+
+            @include mobile{
+                padding-left: 10px;
+            }
+
+            h3{
+                font-size: 50px;
+                color: $dark;
+
+                @include mobile{
+                    font-size: 40px;
+                }
+            }
+            h1{
+                font-size: 87px;
+                color: $dark;
+                font-weight: bold;
+                letter-spacing: 1px;
+
+                @include mobile{
+                    font-size: 75px;
+                }
+            }
+            p{
+                font-size: 1.4rem;
+                @include mobile{
+                    font-size: 18px;
+                }
+            }
+            
+            .main-buttons{
+                width: 100%;
+                text-align: left;
+                margin: 30px 0;
+                
+                button{
+                    width: 30%;
+                    @include button();
+                }
+                .hire{
+                    background-color: $dark;
+                    color: $white;
+                    margin-right: 20px;
+
+                    &:hover{
+                        box-shadow: 0px 2px 3px 0px $dark;
+                    }
+                }
+                .resume{
+                    border: 1px solid $mainColor;
+                    background-color: transparent;
+                    color: $dark;
+                    font-weight: bold;
+
+                    &:hover{
+                        box-shadow: 0px 2px 3px 0px $mainColor;
+                    }
+                }
+            }
+
+        }
+
+        .main-right{
+            flex: 1;
+            text-align: center;
+
+            animation-name: slides;
+            animation-duration: 2s;
+            position: relative;
+            
+
+            @keyframes slides {
+                from{right: -300px;}
+                to{right: 30px;}
+            }
+
+            img{
+                @include mobile{
+                    img{
+                        width: 100%;
+                    }
+            }
+        }
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.scroll-top{
+    background-color: burlywood;
+    opacity: 0;
+
+    a{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        color: $mainColor;
+        font-size: 45px;
+
+        animation-name: scrolsl;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+
+        @keyframes scrolsl {
+            from{bottom: 10px;}
+            to{bottom: 20px;}
+        }
+
+        &:hover{
+            color: $dark;
+        }
+    }
+}
+
+.active{
+    opacity: 1;
+}

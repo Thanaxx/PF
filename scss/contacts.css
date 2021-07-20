@@ -1,0 +1,94 @@
+.contacts-wrapper {
+  padding: 90px;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 760px) {
+  .contacts-wrapper {
+    padding: 90px 25px;
+  }
+}
+
+.contacts-wrapper h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #3F3D56;
+  color: #3F3D56;
+}
+
+@media screen and (max-width: 760px) {
+  .contacts-wrapper h1 {
+    font-size: 40px;
+  }
+}
+
+.contacts-wrapper p {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 760px) {
+  .contacts-wrapper p {
+    font-size: 16px;
+  }
+}
+
+.contacts-wrapper .form-wrapper {
+  margin-top: 30px;
+}
+
+.contacts-wrapper .form-wrapper form {
+  margin-top: 50px;
+  margin: auto;
+  width: 450px;
+}
+
+.contacts-wrapper .form-wrapper form input[type="text"], .contacts-wrapper .form-wrapper form input[type="email"], .contacts-wrapper .form-wrapper form textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid #868B8E;
+  outline: none;
+  font-weight: bold;
+}
+
+.contacts-wrapper .form-wrapper form input[type="text"]::-webkit-input-placeholder, .contacts-wrapper .form-wrapper form input[type="email"]::-webkit-input-placeholder, .contacts-wrapper .form-wrapper form textarea::-webkit-input-placeholder {
+  color: #22222259;
+}
+
+.contacts-wrapper .form-wrapper form input[type="text"]:-ms-input-placeholder, .contacts-wrapper .form-wrapper form input[type="email"]:-ms-input-placeholder, .contacts-wrapper .form-wrapper form textarea:-ms-input-placeholder {
+  color: #22222259;
+}
+
+.contacts-wrapper .form-wrapper form input[type="text"]::-ms-input-placeholder, .contacts-wrapper .form-wrapper form input[type="email"]::-ms-input-placeholder, .contacts-wrapper .form-wrapper form textarea::-ms-input-placeholder {
+  color: #22222259;
+}
+
+.contacts-wrapper .form-wrapper form input[type="text"]::placeholder, .contacts-wrapper .form-wrapper form input[type="email"]::placeholder, .contacts-wrapper .form-wrapper form textarea::placeholder {
+  color: #22222259;
+}
+
+.contacts-wrapper .form-wrapper form input[type="text"]:hover, .contacts-wrapper .form-wrapper form input[type="email"]:hover, .contacts-wrapper .form-wrapper form textarea:hover {
+  outline: 1px solid #3F3D56;
+}
+
+.contacts-wrapper .form-wrapper form .submit-message {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contacts-wrapper .form-wrapper form .submit-message button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: #3F3D56;
+  color: #ffff;
+  padding: 8px 12px;
+}
+/*# sourceMappingURL=contacts.css.map */

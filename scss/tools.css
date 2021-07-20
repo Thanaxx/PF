@@ -1,0 +1,49 @@
+.tools-wrapper {
+  min-height: 100vh;
+  padding: 90px;
+}
+
+@media screen and (max-width: 760px) {
+  .tools-wrapper {
+    padding: 90px 25px;
+  }
+}
+
+.tools-wrapper h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #3F3D56;
+  color: #3F3D56;
+}
+
+.tools-wrapper p {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.tools-wrapper .tools-name {
+  text-align: center;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.tools-wrapper .tools-name img {
+  padding: 30px 50px;
+  width: 23%;
+  height: auto;
+  text-align: center;
+  margin: auto;
+}
+
+@media screen and (max-width: 760px) {
+  .tools-wrapper .tools-name img {
+    padding: 10px;
+    width: 33%;
+  }
+}
+/*# sourceMappingURL=tools.css.map */

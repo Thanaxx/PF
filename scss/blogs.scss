@@ -1,0 +1,11 @@
+@import "./components";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.blog-page{
+    background-color: blueviolet;
+    min-height: 100vh;
+}

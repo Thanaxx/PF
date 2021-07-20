@@ -1,0 +1,29 @@
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #3F3D56;
+}
+
+footer h3 {
+  padding: 5px 0;
+  color: #ffff;
+}
+
+footer a {
+  font-size: 30px;
+  padding: 0px 7px;
+  color: #868B8E;
+}
+
+footer a:hover {
+  color: #ffff;
+}
+
+footer p {
+  color: #ffff;
+}
+
+footer img {
+  width: 100px;
+}
+/*# sourceMappingURL=footer.css.map */

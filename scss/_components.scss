@@ -1,0 +1,35 @@
+$mainColor: #868B8E;
+$white: #ffff;
+$black: #161616ee; 
+$dark: #3F3D56;
+
+@mixin button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+@mixin heading {
+    text-align: center;
+    font-size: 40px;
+    color: $dark;
+}
+@mixin headingB {
+    text-align: center;
+    font-size: 55px;
+    letter-spacing: 5px;
+    color: #3F3D56;
+}
+@mixin mobile {
+    @media  screen and (max-width: 760px) {
+        @content;
+    }
+}
+
+@mixin description {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 18px;
+}

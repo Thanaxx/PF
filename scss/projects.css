@@ -1,0 +1,149 @@
+.projects-wrapper {
+  padding: 90px;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 760px) {
+  .projects-wrapper {
+    padding: 90px 20px;
+  }
+}
+
+.projects-wrapper h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #3F3D56;
+}
+
+@media screen and (max-width: 760px) {
+  .projects-wrapper h1 {
+    font-size: 55px;
+  }
+}
+
+.projects-wrapper .project-description {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.projects-wrapper .project-lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 760px) {
+  .projects-wrapper .project-lists {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.projects-wrapper .project-lists .project-name {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+@media screen and (max-width: 760px) {
+  .projects-wrapper .project-lists .project-name {
+    width: 100%;
+  }
+}
+
+.projects-wrapper .project-lists .project-name img {
+  width: 100%;
+}
+
+.projects-wrapper .project-lists .project-name .project-content {
+  padding: 10px 0;
+  line-height: 30px;
+}
+
+.projects-wrapper .project-lists .project-name .project-content h2 {
+  color: #3F3D56;
+  padding-bottom: 10px;
+}
+
+.projects-wrapper .project-lists .project-name .project-content p {
+  font-weight: lighter;
+  font-size: 16px;
+  color: #3F3D56;
+}
+
+.projects-wrapper .project-lists .project-name .project-content a {
+  text-decoration: none;
+}
+
+.projects-wrapper .project-lists .project-name .project-content a button {
+  color: #868B8E;
+  background-color: transparent;
+  padding: 8px 10px;
+  color: #3F3D56;
+  border: 1px solid #3F3D56;
+  outline: none;
+  margin-top: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.projects-wrapper .project-lists .project-name .project-content a button:hover {
+  background-color: #3F3D56;
+  color: white;
+}
+
+.projects-wrapper .new-projects {
+  display: none;
+}
+
+.projects-wrapper .new-projects .project-lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 760px) {
+  .projects-wrapper .new-projects .project-lists {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.projects-wrapper .new-projects .project-lists .project-name {
+  margin: auto;
+}
+
+.projects-wrapper .new-projects .project-lists .project-name img {
+  width: 100%;
+}
+
+.projects-wrapper .view-wrapper {
+  text-align: center;
+}
+
+.projects-wrapper .view-wrapper button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 15px;
+  background-color: #868B8E;
+  color: white;
+  border-radius: 4px;
+  padding: 7px 20px;
+}
+/*# sourceMappingURL=projects.css.map */

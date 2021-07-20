@@ -1,0 +1,76 @@
+.about-wrapper {
+  min-height: 100vh;
+}
+
+.about-wrapper .about-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 100px 80px 100px 80px;
+}
+
+@media screen and (max-width: 760px) {
+  .about-wrapper .about-container {
+    padding: 100px 20px 100px 20px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .about-wrapper .about-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.about-wrapper .about-container .about-left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 760px) {
+  .about-wrapper .about-container .about-left {
+    padding-bottom: 20px;
+  }
+}
+
+.about-wrapper .about-container .about-left img {
+  width: 70%;
+}
+
+@media screen and (max-width: 760px) {
+  .about-wrapper .about-container .about-left img {
+    width: 100%;
+  }
+}
+
+.about-wrapper .about-container .about-right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: auto;
+}
+
+.about-wrapper .about-container .about-right h1 {
+  font-size: 40px;
+  color: #3F3D56;
+}
+
+.about-wrapper .about-container .about-right p {
+  text-align: justify;
+}
+
+.about-wrapper .about-container .about-right a button {
+  background-color: #3F3D56;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=About.css.map */
